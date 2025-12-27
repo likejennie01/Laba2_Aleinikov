@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайн-студия - Лабораторная работа 2</title>
+    
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <link rel="icon" href="data:image/svg+xml<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                
+                <a href="#" class="logo">
+                    <span class="logo__text">DesignHome</span>
+                </a>
+                
+                
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacts" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                
+                <a href="tel:+79991234567" class="header__phone">+7 999 123-45-67</a>
+                
+                
+                <button class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Дизайн интерьера для вашего комфорта</h1>
+                <p class="hero__subtitle">Создаем уютные и функциональные пространства</p>
+                <a href="#contacts" class="btn btn--primary">Заказать консультацию</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Услуги" -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section__title">Наши услуги</h2>
+            <p class="section__subtitle">Мы предлагаем полный спектр услуг по дизайну интерьера</p>
+            
+            <div class="services__grid">
+                <!-- Услуга 1 -->
+                <div class="service">
+                    <div class="service__image">
+                        <img src="img/1.jpg" alt="Дизайн-проект">
+                    </div>
+                    <div class="service__content">
+                        <h3 class="service__title">Дизайн-проект</h3>
+                        <p class="service__description">
+                            Разработка полного дизайн-проекта с 3D-визуализацией
+                        </p>
+                        <div class="service__price">от 50 000 ₽</div>
+                    </div>
+                </div>
+                
+                <!-- Услуга 2 -->
+                <div class="service">
+                    <div class="service__image">
+                        <img src="img/2.jpg" alt="Ремонт под ключ">
+                    </div>
+                    <div class="service__content">
+                        <h3 class="service__title">Ремонт под ключ</h3>
+                        <p class="service__description">
+                            Полный цикл работ от черновой отделки до декора
+                        </p>
+                        <div class="service__price">от 100 000 ₽</div>
+                    </div>
+                </div>
+                
+                <!-- Услуга 3 -->
+                <div class="service">
+                    <div class="service__image">
+                        <img src="img/3.jpg" alt="Консультация">
+                    </div>
+                    <div class="service__content">
+                        <h3 class="service__title">Консультация</h3>
+                        <p class="service__description">
+                            Профессиональная консультация по планировке и отделке
+                        </p>
+                        <div class="service__price">от 5 000 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Портфолио" -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section__title">Наши работы</h2>
+            <p class="section__subtitle">Реализованные проекты дизайна интерьера</p>
+            
+            <div class="portfolio__grid">
+                <!-- Работа 1 -->
+                <div class="portfolio-item">
+                    <img src="img/4.jpg" alt="Гостиная в современном стиле">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Гостиная в современном стиле</h3>
+                        <p class="portfolio-item__desc">80 м², Москва</p>
+                    </div>
+                </div>
+                
+                <!-- Работа 2 -->
+                <div class="portfolio-item">
+                    <img src="img/5.jpg" alt="Кухня-гостиная">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Кухня-гостиная</h3>
+                        <p class="portfolio-item__desc">45 м², Санкт-Петербург</p>
+                    </div>
+                </div>
+                
+                <!-- Работа 3 -->
+                <div class="portfolio-item">
+                    <img src="img/6.jpg" alt="Спальня в классическом стиле">
+                    <div class="portfolio-item__overlay">
+                        <h3 class="portfolio-item__title">Спальня в классическом стиле</h3>
+                        <p class="portfolio-item__desc">30 м², Казань</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Контакты" -->
+    <section id="contacts" class="section contacts">
+        <div class="container">
+            <h2 class="section__title">Контакты</h2>
+            <p class="section__subtitle">Свяжитесь с нами удобным для вас способом</p>
+            
+            <div class="contacts__content">
+                <div class="contacts__info">
+                    <div class="contact-item">
+                        <h3 class="contact-item__title">Адрес</h3>
+                        <p class="contact-item__text">г. Москва, ул. Дизайнеров, 15</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 class="contact-item__title">Телефон</h3>
+                        <a href="tel:+79991234567" class="contact-item__link">+7 999 123-45-67</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 class="contact-item__title">Email</h3>
+                        <a href="mailto:info@designhome.ru" class="contact-item__link">info@designhome.ru</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 class="contact-item__title">Режим работы</h3>
+                        <p class="contact-item__text">Пн-Пт: 9:00-20:00<br>Сб: 10:00-18:00<br>Вс: выходной</p>
+                    </div>
+                </div>
+                
+                <div class="contacts__form">
+                    <h3 class="contacts__form-title">Оставить заявку</h3>
+                    <form class="form">
+                        <input type="text" placeholder="Ваше имя" class="form__input" required>
+                        <input type="tel" placeholder="Телефон" class="form__input" required>
+                        <textarea placeholder="Сообщение" class="form__textarea" rows="4"></textarea>
+                        <button type="submit" class="btn btn--primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__copyright">
+                    © 2023 DesignHome. Лабораторная работа 2
+                </div>
+                <div class="footer__nav">
+                    <a href="#home" class="footer__link">Главная</a>
+                    <a href="#services" class="footer__link">Услуги</a>
+                    <a href="#portfolio" class="footer__link">Портфолио</a>
+                    <a href="#contacts" class="footer__link">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
